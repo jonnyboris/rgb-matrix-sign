@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "moduleResolution": "node",
+    "removeComments": false,
+    "module": "commonjs",
+    "allowSyntheticDefaultImports": true,
+    "strictPropertyInitialization": true,
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "outDir": "dist/",
+    "declaration": true,
+    "sourceMap": false,
+    "strictNullChecks": true,
+    "importHelpers": true,
+    "downlevelIteration": true,
+  },
+  "exclude": [
+    "dist"
+  ],
+  "include": [
+    "src"
+  ]
+}
